@@ -1,0 +1,146 @@
+.frontSlideText {
+    position: absolute;
+    top: 175px;
+    text-align: center;
+    width: 100%;
+	z-index: 1;
+	background: rgba(0,0,0,0.6);
+	.frontSlideTitle {
+		text-transform: uppercase;
+		font-size: 60px;
+		font-weight: 500;
+		color: #fff;
+	}
+	.frontSlideSubTitle {
+		font-size: 30px;
+		font-weight: 500;
+		color: #fff;
+	}
+}
+.frontHeader {
+    position: fixed;
+    background-color: rgba(255,255,255,0.5);
+    width: 100%;
+    height: 40px;
+    z-index: 1;
+	box-shadow: 0 1px 5px rgba(0,0,0,.12),0 0 1px rgba(0,0,0,.24)!important;
+	.headerTitle {
+		float: left;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		font-size: 24px;
+		color: #fff;
+		background-color: rgba(90,90,90,0.5);
+		cursor: default;
+	}
+	.headerNav {
+		float: right;
+		padding-right: 20px;
+		width: 176Opx;
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+		.shoppingCartIcon {
+			padding: 8px;
+			background-color: rgba(90, 90, 90, 0.5);
+			color: #fff;
+			text-align: center;
+			cursor: pointer;
+			width: 76px !important;
+			height: 40px !important;
+		}
+		.shoppingCartIcon:hover {
+			opacity: 0.7;
+		}
+		.cartCount {
+			position: absolute;
+			background-color: #000;
+			color: #fff;
+			border-radius: 50%;
+			width: 25px;
+			text-align: center;
+			font-size: 14px;
+			height: 25px;
+			padding-top: 1px;
+			top: 13px;
+			left: 4px;
+		}
+		.cartList {
+			position: absolute;
+			right: 20px;
+			top: 40px;
+			background-color: #fff;
+			border: 1px solid #aaa;
+			border-radius: 0px 0px 6px 6px;
+			padding: 6px;
+			width: 300px;
+			visibility: hidden;
+			opacity: 0;
+			transition: 0.1s;
+			.cartListScroll {
+				max-height: 274px;
+				overflow-y: scroll;
+				.listItem {
+					display: flex;
+					margin-bottom: 10px;
+					padding-bottom: 10px;
+					border-bottom: 1px solid #ccc;
+					.listItemImage {
+						width: 50px;
+						height: 50px;
+					}
+					.listItemDetails {
+						margin-left: 8px;
+						width: 66%;
+						.listItemName {
+							font-weight: 500;
+						}
+						.darkText {
+							color: #aaa;
+						}
+					}
+					.listItemRemove {
+						font-weight: 600;
+						cursor: pointer;
+					}
+				}
+			}
+			.listTotal {
+				display: flex;
+				justify-content: space-between;
+				font-weight: 600;
+			}
+		}
+	}
+	.headerNav:hover .cartList {
+		visibility: visible;
+		opacity: 1;
+		transition: 0.5s;
+	}
+}
+.frontBodyUpper {
+    position: relative;
+    padding-top: 520px;
+    margin-bottom: 48px;
+}
+.frontFooter {
+    position: relative;
+}
+.errorAlertMain {
+    width: 100%;
+    transition: height 1s;
+	overflow: hidden;
+	.errorAlert {
+		width: fit-content;
+		background-color: #fdbfbf;
+		margin: auto;
+		padding: 6px;
+		border-radius: 6px;
+		color: #f00;
+	}
+}
+a {
+    text-decoration: none !important;
+}

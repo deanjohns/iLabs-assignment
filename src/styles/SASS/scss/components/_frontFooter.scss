@@ -1,0 +1,73 @@
+@import '../variables/variables';
+
+.frontFooterMain {
+	background-color: #000213;
+    color: #aaa;
+	padding-bottom: 26px;
+	.footerUpper {
+		padding-left: 140px;
+		padding-right: 140px;
+		padding-top: 40px;
+		display: flex;
+		justify-content: space-between;
+		.footerCats {
+			.footerCatsTitle {
+				margin-bottom: 12px;
+				font-size: 16px;
+			}
+			.footerCatsList {
+				list-style-type: none;
+				font-size: 14px;
+				li {
+					margin-bottom: 4px;
+				}
+			}
+		}
+		.contactUs {
+			font-size: 14px;
+			.footerCatsTitle {
+				margin-bottom: 12px;
+				font-size: 16px;
+			}
+			.contactUslinks {
+				margin-bottom: 4px;
+			}
+		}
+	}
+	hr {
+		background-color: #aaa;
+		margin-left: 140px;
+		margin-right: 140px;
+	}
+	.footerLower {
+		display: flex;
+		padding-left: 140px;
+		padding-right: 140px;
+		justify-content: space-between;
+		font-size: 14px;
+		.policies {
+			display: flex;
+		}
+	}
+	a {
+		text-decoration: none;
+		color: #aaa;
+	}
+	a:hover {
+		opacity: 0.7;
+	}
+}
+@media screen and (max-width: $small) {
+	.footerUpper {
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+	hr {
+		margin-left: 20px !important;
+		margin-right: 20px !important;
+	}
+    .footerLower {
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+}

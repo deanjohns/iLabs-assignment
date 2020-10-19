@@ -1,0 +1,419 @@
+.categorySubTitle {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+}
+
+.categoryBodyBuy .itemGridMainProcedure .procMain {
+  text-align: center;
+  margin-top: 20px;
+}
+.categoryBodyBuy .itemGridMainProcedure .procMain .searchIcon {
+  font-size: 66px !important;
+  color: #00a5a5;
+}
+.categoryBodyBuy .itemGridMainProcedure .procMain .procTitle {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+.categoryBodyBuy .itemGridMainProcedure .procMain .procSubTitle {
+  font-size: 14px;
+  color: #444;
+  margin-top: 12px;
+}
+
+.categoryTitle {
+  text-align: center;
+  padding-top: 50px;
+}
+.categoryTitle span {
+  font-size: 44px;
+  color: #4b4b4b;
+  font-style: italic;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.categoryBody {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.categoryBody .itemGridMain {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.categoryBody .itemGridMain .itemCatCard {
+  width: 180px;
+  height: 130px;
+  float: left;
+  margin: 8px;
+}
+.categoryBody .itemGridMain .itemCatCard .catCard {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.categoryBody .itemGridMain .itemCatCard .catCard .catCardImage {
+  width: 180px;
+  height: 130px;
+}
+.categoryBody .itemGridMain .itemCatCard .catCard .catCardTitle {
+  width: 180px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding-top: 10px;
+}
+.categoryBody .itemGridMain .itemCatCard .catCard .catCardTitle span {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  font-size: 18px;
+}
+.categoryBody .itemGridMain .itemCatCard .catCard:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.categoryBody .itemGridMainProcedure {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.categoryBodyBuy .itemGridMain {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.categoryBodyBuy .itemGridMain .itemCatCard {
+  width: 180px;
+  height: 130px;
+  float: left;
+  margin: 8px;
+}
+.categoryBodyBuy .itemGridMain .itemCatCard .catCard {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.categoryBodyBuy .itemGridMain .itemCatCard .catCard .catCardImage {
+  width: 180px;
+  height: 130px;
+}
+.categoryBodyBuy .itemGridMain .itemCatCard .catCard .catCardTitle {
+  width: 180px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  padding-top: 10px;
+}
+.categoryBodyBuy .itemGridMain .itemCatCard .catCard .catCardTitle span {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  font-size: 18px;
+}
+.categoryBodyBuy .itemGridMain .itemCatCard .catCard:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.categoryBodyBuy .itemGridMainProcedure {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.frontSlideText {
+  position: absolute;
+  top: 175px;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+}
+.frontSlideText .frontSlideTitle {
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 500;
+  color: #fff;
+}
+.frontSlideText .frontSlideSubTitle {
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.frontHeader {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 40px;
+  z-index: 1;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.12), 0 0 1px rgba(0, 0, 0, 0.24) !important;
+}
+.frontHeader .headerTitle {
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 24px;
+  color: #fff;
+  background-color: rgba(90, 90, 90, 0.5);
+  cursor: default;
+}
+.frontHeader .headerNav {
+  float: right;
+  padding-right: 20px;
+  width: 176Opx;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.frontHeader .headerNav .shoppingCartIcon {
+  padding: 8px;
+  background-color: rgba(90, 90, 90, 0.5);
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  width: 76px !important;
+  height: 40px !important;
+}
+.frontHeader .headerNav .shoppingCartIcon:hover {
+  opacity: 0.7;
+}
+.frontHeader .headerNav .cartCount {
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+  width: 25px;
+  text-align: center;
+  font-size: 14px;
+  height: 25px;
+  padding-top: 1px;
+  top: 13px;
+  left: 4px;
+}
+.frontHeader .headerNav .cartList {
+  position: absolute;
+  right: 20px;
+  top: 40px;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 0px 0px 6px 6px;
+  padding: 6px;
+  width: 300px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.1s;
+}
+.frontHeader .headerNav .cartList .cartListScroll {
+  max-height: 274px;
+  overflow-y: scroll;
+}
+.frontHeader .headerNav .cartList .cartListScroll .listItem {
+  display: flex;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.frontHeader .headerNav .cartList .cartListScroll .listItem .listItemImage {
+  width: 50px;
+  height: 50px;
+}
+.frontHeader .headerNav .cartList .cartListScroll .listItem .listItemDetails {
+  margin-left: 8px;
+  width: 66%;
+}
+.frontHeader .headerNav .cartList .cartListScroll .listItem .listItemDetails .listItemName {
+  font-weight: 500;
+}
+.frontHeader .headerNav .cartList .cartListScroll .listItem .listItemDetails .darkText {
+  color: #aaa;
+}
+.frontHeader .headerNav .cartList .cartListScroll .listItem .listItemRemove {
+  font-weight: 600;
+  cursor: pointer;
+}
+.frontHeader .headerNav .cartList .listTotal {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.frontHeader .headerNav:hover .cartList {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.frontBodyUpper {
+  position: relative;
+  padding-top: 520px;
+  margin-bottom: 48px;
+}
+
+.frontFooter {
+  position: relative;
+}
+
+.errorAlertMain {
+  width: 100%;
+  transition: height 1s;
+  overflow: hidden;
+}
+.errorAlertMain .errorAlert {
+  width: fit-content;
+  background-color: #fdbfbf;
+  margin: auto;
+  padding: 6px;
+  border-radius: 6px;
+  color: #f00;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.frontFooterMain {
+  background-color: #000213;
+  color: #aaa;
+  padding-bottom: 26px;
+}
+.frontFooterMain .footerUpper {
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.frontFooterMain .footerUpper .footerCats .footerCatsTitle {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+.frontFooterMain .footerUpper .footerCats .footerCatsList {
+  list-style-type: none;
+  font-size: 14px;
+}
+.frontFooterMain .footerUpper .footerCats .footerCatsList li {
+  margin-bottom: 4px;
+}
+.frontFooterMain .footerUpper .contactUs {
+  font-size: 14px;
+}
+.frontFooterMain .footerUpper .contactUs .footerCatsTitle {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+.frontFooterMain .footerUpper .contactUs .contactUslinks {
+  margin-bottom: 4px;
+}
+.frontFooterMain hr {
+  background-color: #aaa;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+.frontFooterMain .footerLower {
+  display: flex;
+  padding-left: 140px;
+  padding-right: 140px;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.frontFooterMain .footerLower .policies {
+  display: flex;
+}
+.frontFooterMain a {
+  text-decoration: none;
+  color: #aaa;
+}
+.frontFooterMain a:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 767px) {
+  .footerUpper {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  hr {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+
+  .footerLower {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+.itemBody {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.itemBody .itemGridMain {
+  padding-left: 0px;
+  padding-right: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.itemBody .itemGridMain .itemCard {
+  margin: 10px;
+}
+.itemBody .itemGridMain .itemCard .itemCardMain {
+  padding: 6px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+}
+.itemBody .itemGridMain .itemCard .itemCardMain .itemCardSub1 {
+  width: 220px;
+  height: 190px;
+  margin-top: 6px;
+  overflow: hidden;
+}
+.itemBody .itemGridMain .itemCard .itemCardMain .itemCardSub1 .itemCardImage {
+  width: 100%;
+  height: 100%;
+}
+.itemBody .itemGridMain .itemCard .itemCardMain .itemCardSub2 .cardTitle {
+  margin-top: 12px;
+}
+.itemBody .itemGridMain .itemCard .itemCardMain .itemCardSub2 .itemDetails {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.itemBody .itemGridMain .itemCard .itemCardMain .itemCardSub2 .itemDetails .itemPrice {
+  color: #777;
+  font-size: 14px;
+  padding-top: 4px;
+}
+.itemBody .itemGridMain .itemCard .itemCardMain .itemCardSub2 .itemDetails .itemRatings {
+  color: #ff8d00;
+}
+.itemBody .itemGridMain .itemCard .itemCardMain .itemCardSub2 .itemButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
+.itemBody .itemGridMain .itemCard .itemCardMain .itemCardSub2 .itemButtons button {
+  background-color: #5ec55e;
+  border: none;
+  padding: 6px;
+  border-radius: 4px;
+  color: #fff;
+  width: 100%;
+}
+.itemBody .itemGridMain .itemCard .itemCardMain .itemCardSub2 .itemButtons button:hover {
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=style.css.map */

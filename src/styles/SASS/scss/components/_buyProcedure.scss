@@ -1,0 +1,29 @@
+@import '../variables/variables';
+
+.categorySubTitle {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+}
+.categoryBodyBuy {
+	.itemGridMainProcedure {
+		.procMain {
+			text-align: center;
+			margin-top: 20px;
+			.searchIcon {
+				font-size: 66px !important;
+				color: #00a5a5;
+			}
+			.procTitle {
+				font-size: 18px;
+				font-weight: 500;
+				margin-top: 12px;
+			}
+			.procSubTitle {
+				font-size: 14px;
+				color: #444;
+				margin-top: 12px;
+			}
+		}
+	}
+}

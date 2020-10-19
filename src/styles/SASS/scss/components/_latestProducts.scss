@@ -1,0 +1,66 @@
+@import '../variables/variables';
+
+.itemBody {
+    padding-left: 25px;
+	padding-right: 25px;
+	.itemGridMain {
+		padding-left: 0px;
+		padding-right: 0px;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		.itemCard {
+			margin: 10px;
+			.itemCardMain {
+				padding: 6px;
+				border: 1px solid #bbb;
+				border-radius: 8px;
+				.itemCardSub1 {
+					width: 220px;
+					height: 190px;
+					margin-top: 6px;
+					overflow: hidden;
+					.itemCardImage {
+						width: 100%;
+						height: 100%;
+					}
+				}
+				.itemCardSub2 {
+					.cardTitle {
+						margin-top: 12px;
+					}
+					.itemDetails {
+						display: flex;
+						justify-content: space-between;
+						margin-top: 12px;
+						.itemPrice {
+							color: #777;
+							font-size: 14px;
+							padding-top: 4px;
+						}
+						.itemRatings {
+							color: $star-rating-color;
+						}
+					}
+					.itemButtons {
+						display: flex;
+						justify-content: space-between;
+						margin-top: 12px;
+						margin-bottom: 6px;
+						button {
+							background-color: $primary-button-color;
+							border: none;
+							padding: 6px;
+							border-radius: 4px;
+							color: #fff;
+							width: 100%;
+						}
+						button:hover {
+							opacity: 0.7;
+						}
+					}
+				}
+			}
+		}
+	}
+}
