@@ -1,7 +1,7 @@
-import '../../styles/SASS/css/style.css';
 import { compose } from 'recompose';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
+import '../../styles/SASS/css/style.css';
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { updateCartList } from '../../store/actions';
@@ -21,6 +21,7 @@ class FrontHeader extends Component {
         }
     }
 
+    // Calculate the total amount of whole cart list
     calculateTotal = () => {
         var total = 0;
         const { cartList } = this.props;
@@ -30,6 +31,7 @@ class FrontHeader extends Component {
         this.setState({ total: total })
     }
 
+    // Remove an item from the cart
     removeFromCart = (item) => {
         const { cartList, updateCartList } = this.props;
         var newList = cartList;

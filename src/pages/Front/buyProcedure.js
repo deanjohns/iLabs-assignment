@@ -1,8 +1,5 @@
-import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import '../../styles/SASS/css/style.css';
-import EcommerceStyles from '../../styles/Ecommerce';
-import { withStyles } from '@material-ui/core/styles';
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 import CreditCardOutlinedIcon from '@material-ui/icons/CreditCardOutlined';
 import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
@@ -74,8 +71,4 @@ class BuyProcedure extends Component {
     }
 }
 
-BuyProcedure.propTypes = {
-    classes: PropTypes.object.isRequired,
-};
-
-export default withStyles(EcommerceStyles)(BuyProcedure);
+export default BuyProcedure;

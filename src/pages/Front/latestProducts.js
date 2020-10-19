@@ -15,14 +15,14 @@ class LatestProducts extends Component {
         }
     }
 
+    // Add an item to the cart
     addItemToCart = (item) => {
         const { cartList, updateCartList } = this.props;
         var newList = cartList;
-        const isExists = newList.some(e => e.id === item.id)
-        console.log("ooo", isExists)
+        const isExists = newList.some(e => e.id === item.id)    // Check whether the item is already in the cart
         if (isExists) {
             this.setState({ alreadyInCart: true }, () => {
-                this.clearAlert()
+                this.clearAlert()    // If item exists in the cart, the error alert will be popped up and clear
             })
         }
         else {

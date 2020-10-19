@@ -1,9 +1,6 @@
-import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import '../../styles/SASS/css/style.css';
 import CategoryData from './DataSet/CategoryData';
-import EcommerceStyles from '../../styles/Ecommerce';
-import { withStyles } from '@material-ui/core/styles';
 
 class Categories extends Component {
     constructor(props) {
@@ -42,8 +39,4 @@ class Categories extends Component {
     }
 }
 
-Categories.propTypes = {
-    classes: PropTypes.object.isRequired,
-};
-
-export default withStyles(EcommerceStyles)(Categories);
+export default Categories;

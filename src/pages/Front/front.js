@@ -1,14 +1,11 @@
-import PropTypes from 'prop-types';
-import '../../styles/SASS/css/style.css';
 import Categories from './categories';
 import FrontHeader from './frontHeader';
 import FrontFooter from './frontFooter';
+import '../../styles/SASS/css/style.css';
 import React, { Component } from 'react';
 import BuyProcedure from './buyProcedure';
 import LatestProducts from './latestProducts';
 import '../../styles/SASS/other/otherStyles.css';
-import EcommerceStyles from '../../styles/Ecommerce';
-import { withStyles } from '@material-ui/core/styles';
 import { Container, Row, Col } from 'bootstrap-4-react';
 
 class Front extends Component {
@@ -67,8 +64,4 @@ class Front extends Component {
     }
 }
 
-Front.propTypes = {
-    classes: PropTypes.object.isRequired,
-};
-
-export default withStyles(EcommerceStyles)(Front);
+export default Front;
